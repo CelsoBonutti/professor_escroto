@@ -11,8 +11,8 @@ config :professor_escroto,
   ecto_repos: [ProfessorEscroto.Repo]
 
 config :professor_escroto,
-  ProfessorEscroto.Repo,
-  migration_primary_key: [type: :uuid]
+       ProfessorEscroto.Repo,
+       migration_primary_key: [type: :uuid]
 
 # Configures the endpoint
 config :professor_escroto, ProfessorEscrotoWeb.Endpoint,
